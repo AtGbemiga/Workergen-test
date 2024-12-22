@@ -1,0 +1,25 @@
+.wrapperCFT {
+  width: 40%;
+}
+
+@media screen and (min-width: 64rem) {
+  .wrapperCFT {
+    width: fit-content;
+    padding: 0.5rem;
+  }
+}
+
+.wrapperCFT > section {
+  display: grid;
+  row-gap: 1rem;
+  place-content: start;
+  align-items: center;
+}
+
+.wrapperCFT button {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  padding: 0.5rem;
+  column-gap: 0.5rem;
+}

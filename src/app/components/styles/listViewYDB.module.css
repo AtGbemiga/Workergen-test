@@ -1,0 +1,44 @@
+.wrapperYDB {
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+
+.wrapperYDB .inputWrapper {
+  display: flex;
+  column-gap: 0.5rem;
+  background-color: inherit;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  border: 1px solid #8a2be2;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.wrapperYDB input::placeholder {
+  font-size: x-small;
+}
+
+@media screen and (min-width: 64rem) {
+  .wrapperYDB .inputWrapper {
+    width: 35%;
+  }
+
+  .wrapperYDB input {
+    width: 90%;
+    margin-right: auto;
+  }
+
+  .wrapperYDB input::placeholder {
+    font-size: revert-layer;
+  }
+}
+
+.wrapperYDB input {
+  border: none;
+}
+
+.wrapperYDB input:focus {
+  outline: none;
+}

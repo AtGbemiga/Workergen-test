@@ -1,0 +1,18 @@
+.wrapperMTN {
+  display: grid;
+  row-gap: 1rem;
+  width: fit-content;
+}
+
+.wrapperMTN button {
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+
+.wrapperMTN .anchor {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: inherit;
+}

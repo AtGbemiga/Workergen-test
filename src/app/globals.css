@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -8,21 +8,35 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
+/* commented for debugging */
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
+  overflow-x: hidden; /* undo this */
 }
 
 body {
+  background-color: #efefef;
+}
+
+.button {
+  cursor: pointer;
+}
+
+/* added for debugging */
+/* * {
+  outline: 2px solid red;
+} */
+
+/* body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -30,13 +44,52 @@ body {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+th[scope="row"] {
+  font-weight: normal;
+  color: blue;
+  text-align: left;
+  cursor: pointer;
+}
+
+th[scope="col"] {
+  text-align: left;
+}
+
+@media screen and (min-width: 64rem) {
+  .swiperDOG .wrapperWIO {
+    min-height: 15rem;
   }
 }

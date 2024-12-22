@@ -1,0 +1,36 @@
+.wrapperWIO {
+  display: grid;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  min-height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+.wrapperWIO .row {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.wrapperWIO .lastRow {
+  background-color: #f7f6ff;
+}
+
+.wrapperWIO .action {
+  margin-right: auto;
+}
+
+.wrapperWIO .img {
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.wrapperWIO .aiIcon {
+  color: blue;
+}
