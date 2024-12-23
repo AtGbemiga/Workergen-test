@@ -61,7 +61,7 @@ export const ActivityCard = () => {
                 of target achieved
               </label>
             </div>
-            <ProgressBar value={68} />
+            <ProgressBar />
           </div>
         )}
       </div>

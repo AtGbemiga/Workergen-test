@@ -1,6 +1,5 @@
 "use client";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import React from "react";
 import type { RootState } from "../../store";
 
 interface UserState {

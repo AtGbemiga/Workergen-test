@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles/progressBarIWD.module.css";
 
-const ProgressBar = ({ value }: { value: number }) => {
+const ProgressBar = () => {
   const milestones = [
     { max: 40, color: "green" },
     { max: 45, color: "blue" },

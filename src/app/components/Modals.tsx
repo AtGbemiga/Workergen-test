@@ -50,7 +50,7 @@ export const ModalContent = ({ open, handleClose }: Props) => {
   const [showEngage, setShowEngage] = useState(false);
 
   const userData = useAppSelector((state: RootState) => state.user);
-  const { name, subtitle, title, topic, type, position, keyword } = userData;
+  const { name, title, topic, type, position, keyword } = userData;
 
   return (
     <Modal
